@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/txtnickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nickname" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtnickname"
+        android:ems="10"
+        android:hint="Age" />
+
+    <EditText
+        android:id="@+id/txtphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtage"
+        android:ems="10"
+        android:hint="Phone" />
+
+    <EditText
+        android:id="@+id/txtbir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtphone"
+        android:ems="10"
+        android:hint="Birthday" />
+
+    <EditText
+        android:id="@+id/txtstudy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtbir"
+        android:ems="10"
+        android:hint="Study" />
+
+    <EditText
+        android:id="@+id/txtface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtstudy"
+        android:ems="10"
+        android:hint="Facebook" />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtface"
+        android:layout_marginRight="29dp"
+        android:layout_marginTop="25dp"
+        android:text="SAVE" />
+
+</RelativeLayout>
